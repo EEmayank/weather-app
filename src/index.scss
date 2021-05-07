@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.body{
+    background-color: grey;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width:1441px) {
+    .container {
+
+        height: 100%;
+        background-color: black;
+
+        display: flex;
+        flex-direction: column;
+
+        .searchbar-container{
+
+            display: flex;
+            justify-content: center;
+
+            padding: 25px;
+
+        }
+        .searchbar {
+
+            
+            border-radius: 50px;
+            box-sizing: border-box;
+
+            padding: 5px 20px 5px 20px;
+
+            display: flex;
+            justify-content: center;
+
+            background-color: white;
+
+        }
+
+        .searchinput{
+
+            width: 800px;
+
+            outline: none;
+            border:transparent;
+
+            font-size:20px;
+
+            color: grey;
+
+        }
+        .searchicon-container{
+
+
+
+        }
+        .searchicon{
+
+            width: 25px;
+            height: 25px;
+
+        }
+
+        .weathercard-container {
+            box-sizing: border-box;
+
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .weathercard{
+            width: 400px; height: 500px;
+            background-color: white;
+            
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;flex-direction: column;
+
+            box-sizing: border-box;
+            padding:20px
+        }
+        .locationandicon-container {
+            width: 100%;
+            
+            .location-container {
+                
+                width: 100%;
+            }
+            .weathericon-container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .alltemp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .temp-container {
+                font-size: 50px;
+            }
+            .weathertype{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+// laptop size
+
+@media screen and (min-width:600px) and (max-width:1440px){
+    .container {
+
+        height: 100%;
+        background-color: black;
+
+        display: flex;
+        flex-direction: column;
+
+        .searchbar-container{
+
+            display: flex;
+            justify-content: center;
+
+            padding: 25px;
+
+        }
+        .searchbar {
+
+            border-radius: 50px;
+            box-sizing: border-box;
+
+            padding: 5px 15px 5px 15px;
+
+            display: flex;
+            justify-content: center;
+
+            background-color: white;
+
+        }
+
+        .searchinput{
+
+            width: 500px;
+
+            outline: none;
+            border:transparent;
+
+            font-size: 15px;
+
+            color: grey;
+
+        }
+        .searchicon-container{
+
+
+
+        }
+        .searchicon{
+
+            width: 25px;
+            height: 25px;
+
+        }
+
+        .weathercard-container {
+            box-sizing: border-box;
+
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .weathercard{
+            width: 300px; height: 400px;
+            background-color: white;
+            
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+
+            box-sizing: border-box;
+            padding:20px
+        }
+        .locationandicon-container {
+            width: 100%;
+            
+            .location-container {
+                
+                width: 100%;
+            }
+            .weathericon-container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .alltemp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .temp-container {
+                font-size: 50px;
+            }
+            .weathertype{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:599px){
+    .container {
+
+        height: 100%;
+        background-color: black;
+
+        display: flex;
+        flex-direction: column;
+
+        .searchbar-container{
+
+            display: flex;
+            justify-content: center;
+
+            padding: 25px;
+
+        }
+        .searchbar {
+
+            border-radius: 50px;
+            box-sizing: border-box;
+
+            padding: 5px 15px 5px 15px;
+
+            display: flex;
+            justify-content: center;
+
+            background-color: white;
+            width: 100%;
+
+        }
+
+        .searchinput{
+
+            width: 98%;
+
+            outline: none;
+            border:transparent;
+
+            font-size: 15px;
+
+            color: grey;
+
+        }
+        .searchicon-container{
+
+
+
+        }
+        .searchicon{
+
+            width: 25px;
+            height: 25px;
+
+        }
+
+        .weathercard-container {
+            box-sizing: border-box;
+
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .weathercard{
+            width: 70vw;
+            max-width: 364px;
+             height: 400px;
+            background-color: white;
+            
+            border-radius: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            box-sizing: border-box;
+            padding:20px
+        }
+        .locationandicon-container {
+            width: 100%;
+            
+            .location-container {
+                
+                width: 100%;
+            }
+            .weathericon-container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .alltemp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .temp-container {
+                font-size: 50px;
+            }
+            .weathertype{
+                font-size: 40px;
+            }
+        }
+    }
+}
