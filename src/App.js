@@ -8,7 +8,7 @@ function App() {
   const [weatherData, setWeatherData] = useState(null)
 
   const handleWeatherData = (city) => {
-    const API = 'c1c486e25640fe14f78823554535c90b'
+    const API = 'add your api key'
     const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c1c486e25640fe14f78823554535c90b`
     fetch (url)
     .then ((resp) => {
